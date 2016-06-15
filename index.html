@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Temporary terrible name -->
+    <title>Deal Hunter</title>
+    <link rel="stylesheet" href="main.css" media="screen">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header class="landingPage" id="top">
+      <nav class="topMenu">
+        <a href="/"><h1>Deal Hunter</h1></a>
+        <ul>
+          <!-- I am targeting this in main.js -->
+          <li class="right"><a href="#" class="signUpBn menuBtn" id="signUpButton">Sign Up</a></li>
+          <li class="right"><a href="#" class="menuBtn">Login</a></li>
+          <li class="right"><a href="#" class="menuBtn">Categories</a></li>
+        </ul>
+      </nav>
+      <!-- popup Div Starts Here -->
+      <!-- I am targeting this in main.js -->
+      <div id="popupContainer" class="popupContainer">
+        <div class="popupSignUp">
+          <!-- Sign Up Form-->
+          <form action="#" class="form" method="post" name="form">
+            <!-- I am targeting this in main.js -->
+            <a href="#" class="closeButton" id="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+            <div>
+              <h2>Sign Up</h2>
+              <!-- I need these ids for my form -->
+              <input id="userName" class="noOutline default" name="userName" placeholder="User Name" type="text">
+              <input id="email" class="noOutline default" name="email" placeholder="Email" type="text">
+              <input id="password" class="noOutline default" name="password" placeholder="Password" type="password">
+              <a href="javascript:%20check_empty()" id="submit" class="default">Submit</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Popup Div Ends Here -->
+      <div class="searchBar">
+        <h2>What are you looking for?</h2>
+        <div>
+          <input class="noOutline" type="text" name="searchField" placeholder="Search for a product..."/>
+          <button class="noOutline"/>
+        </div>
+      </div>
+      <img class="searchMockup" src="img/searchMockup.png"/>
+    </header>
+    <main class="categories">
+      <h1>Browse Categories</h1>
+      <!-- These ids aren't used. But I will need them later in JS -->
+      <a id="soundAndVision" class="category" href="#">
+        <img src="img/iconTV.svg" alt="TV" />
+        <p>Sound &amp Vision</p>
+      </a>
+      <a id="smallHomeAppliances" class="category" href="#">
+        <img src="img/iconCoffeeMachine.svg" alt="CoffeeMachine" />
+        <p>Small Home Appliances</p>
+      </a>
+      <a id="homeAppliances" class="category" href="#">
+        <img src="img/iconWashingMachine.svg" alt="Washing Machine" />
+        <p>Home Appliances</p>
+      </a>
+      <a id="photography" class="category" href="#">
+        <img src="img/iconCamera.svg" alt="Camera" />
+        <p>Photography</p>
+      </a>
+      <a id="entertainment" class="category" href="#">
+        <img src="img/iconDisk.svg" alt="Disk" />
+        <p>Entertainment</p>
+      </a>
+      <a id="familyAndOutdoor" class="category" href="#">
+        <img src="img/iconTennis.svg" alt="Tennis" />
+        <p>Family &amp Outdoor</p>
+      </a>
+      <a id="gamesAndConsoles" class="category" href="#">
+        <img src="img/iconController.svg" alt="Game Controller" />
+        <p>Games &amp Consoles</p>
+      </a>
+      <!-- For some reason, when naming the file iconWorkstation.svg, it refuses to upload to surge. -->
+      <!-- <a id="computersAndHardware" class="category" href="#">
+        <img src="img/iconWorkstation.svg" alt="PC" />
+        <p>Computers &amp Hardware</p>
+      </a> -->
+      <a id="computersAndHardware" class="category" href="#">
+        <img src="img/iconComputer.svg" alt="PC" />
+        <p>Computers &amp Hardware</p>
+      </a>
+      <a id="carEquipment" class="category" href="#">
+        <img src="img/iconCar.svg" alt="Car" />
+        <p>Car Equipment</p>
+      </a>
+      <a id="healthAndBeauty" class="category" href="#">
+        <img src="img/iconMirror.svg" alt="Mirror" />
+        <p>Health &amp Beauty</p>
+      </a>
+      <a id="homeAndGarden" class="category" href="#">
+        <img src="img/iconHome.svg" alt="House" />
+        <p>Home &amp Garden</p>
+      </a>
+      <a id="office" class="category" href="#">
+        <img src="img/iconOffice.svg" alt="Office" />
+        <p>Office</p>
+      </a>
+    </main>
+    <footer>
+      <p>© 2016 Mark Lyck. All rights reserved</p>
+      <a href="#top" id="backToTop" class="noOutline"><i class="fa fa-angle-up fa-2x" aria-hidden="true"></i></a>
+    </footer>
+  </body>
+</html>

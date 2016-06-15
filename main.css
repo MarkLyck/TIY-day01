@@ -1,0 +1,323 @@
+/*Setting up fonts*/
+@font-face {
+    font-family: proximaNova;
+    src: url(fonts/ProximaNova-Regular.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: proximaNova;
+    src: url(fonts/ProximaNova-Light.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: proximaNova;
+    src: url(fonts/ProximaNova-Semibold.otf);
+    font-weight: 200;
+}
+
+/*General Styling*/
+body {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif;
+  line-height: 1.4;
+  color: #fff;
+  background: #373542;
+  padding: 0px;
+  margin: 0px;
+  font-family: "ProximaNova";
+  font-weight: normal;
+}
+
+h1, h2 {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: proximaNova;
+}
+
+a {
+  color: #fff;
+  font-family: proximaNova;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right {
+  float: right;
+}
+
+.noOutline {
+  outline: none;
+}
+
+.landingPage {
+  position: relative;
+  /*Code snippet by Colorzilla to create gradient http://colorzilla.com/gradient-editor/#564ea1+21,3b74cd+100*/
+  background: rgb(86,78,161); /* Old browsers */
+  background: -moz-linear-gradient(to top,  rgba(86,78,161,1) 21%, rgba(59,116,205,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(to top,  rgba(86,78,161,1) 21%,rgba(59,116,205,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(86,78,161,1) 21%,rgba(59,116,205,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#564ea1', endColorstr='#3b74cd',GradientType=0 ); /* IE6-9 */
+  height: 1000px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*   Background image with opacity   */
+.landingPage::before {
+  position: absolute;
+  /*All sudo elements must have content, even if it's empty*/
+  content: '';
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1000px;
+  opacity: 0.2;
+  z-index: 0;
+  background-image: url('img/starSystem.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+
+  /*Old code snippet from my Mac*/
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.topMenu {
+  display: inline;
+  position: relative;
+  z-index: 2;
+}
+
+.topMenu > a > h1 {
+  float: left;
+  margin: 50px 50px;
+}
+
+.topMenu .menuBtn {
+  display: block;
+  padding: 5px 22px;
+  margin: 50px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 100;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+}
+
+.topMenu > ul > li > a:hover {
+  color: #373542;
+  background-color: #fff;
+}
+
+/*When changing this to my class ".signUpBtn" my border gets messed up*/
+.topMenu .signUpBn {
+  border: 1px solid #fff;
+}
+
+/*Snippet form CSS-tricks https://css-tricks.com/snippets/css/style-placeholder-text/*/
+::-webkit-input-placeholder { color:#ABABB1; font-family: proximaNova; font-weight: normal; }
+::-moz-placeholder { color:#ABABB1; font-family: proximaNova; font-weight: normal; } /* firefox 19+ */
+:-ms-input-placeholder { color:#ABABB1; font-family: proximaNova; font-weight: normal; } /* ie */
+input:-moz-placeholder { color:#ABABB1; font-family: proximaNova; font-weight: normal; }
+
+.searchBar {
+  clear: both;
+  padding-top: 100px;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+.searchBar > h2 {
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+.searchBar > div {
+  position: relative;
+}
+
+.searchBar > div > input {
+  width: 70%;
+  height: 100px;
+  padding: 0 100px 0 50px;
+  border-radius: 10px;
+  border-color: #979797;
+  border-width: 1px;
+  margin: 0 100px 0 100px;
+  color: #373542;
+  font-size: 30px;
+}
+
+.searchBar > div > button {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: calc(15% + -75px);
+  float: right;
+  top: 0;
+  border-style: none;
+  /*Code snippet from my Mac*/
+  -webkit-mask-image: url("img/searchIcon.svg");
+  mask-image: url("img/searchIcon.svg");
+}
+
+.searchBar  > div > button:hover {
+  background-color: #564EA1;
+}
+
+.searchMockup {
+  clear: both;
+  display: block;
+  margin: 100px auto 0;
+  width: 75%;
+  z-index: 2;
+  position: relative;
+}
+
+.categories {
+  width: 100%;
+  text-align: center;
+}
+
+.categories > h1 {
+  font-family: proximaNova;
+  font-weight: 100;
+  font-size: 50px;
+  display: block;
+  margin: 100px auto 50px;
+  text-align: center;
+}
+
+.category {
+  height: 350px;
+  width: 350px;
+  background-color: #4B4955;
+  margin: 50px;
+  display: inline-block;
+}
+
+
+.category > p {
+  margin-top: 30px;
+  font-family: proximaNova;
+  font-weight: normal;
+  font-size: 25px;
+
+}
+
+.category:hover {
+  background-color: #564EA1;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #302E39;
+}
+
+footer > p {
+  font-family: proximaNova;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 36px 0 0 50px;
+  margin: 0;
+  float: left;
+}
+
+footer a {
+  text-align: center;
+  float: right;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 25px;
+  margin: 25px 50px;
+  color: #373542;
+}
+footer a > i {
+  padding-top: 10px;
+}
+footer a:hover {
+  background-color: rgb(86,78,161);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.popupContainer {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+  color: #373542;
+  z-index: 3;
+  text-align: center;
+}
+
+.popupSignUp {
+  position: absolute;
+  margin-left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+}
+
+.closeButton {
+  color: #373542;
+  float: right;
+}
+
+form {
+  max-width: 300px;
+  min-width: 100px;
+  padding: 25px 40px 40px 40px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+form > div {
+  text-align: center;
+}
+
+input.default {
+  width: 75%;
+  height: 50px;
+  padding: 0 20px;
+  margin: 10px 10px 0px 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: #dedede;
+}
+
+a.default {
+  color: #fff;
+  background-color: #53d672;
+  border-radius: 4px;
+  width: 75%;
+  height: 10px;
+  margin: 10px 0 0 16px;
+  padding: 12px 20px 28px;
+  display: block;
+  font-size: 20px;
+}
+
+form > div > a:hover {
+  color: #373542;
+}

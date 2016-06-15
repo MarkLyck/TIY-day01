@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="350px" height="220px" viewBox="0 0 350 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-4">
+            <g id="Mirror" transform="translate(122.000000, 71.000000)">
+                <ellipse id="Oval-25" fill="#FFFFFF" cx="51.1578947" cy="135.842105" rx="24.7368421" ry="13.1578947"></ellipse>
+                <rect id="Rectangle-55" fill="#FFFFFF" x="48.5263158" y="90.0526316" width="5.26315789" height="34.7368421"></rect>
+                <path d="M4.22222564,42.6842105 L0.221295932,42.6842105 C0.781634476,70.0450229 23.1365305,92.0526316 50.6315789,92.0526316 C73.6391333,92.0526316 93.5592981,76.5114114 99.3722323,54.5867361 C100.395576,50.7269843 100.958744,46.739273 101.041853,42.6842105 L97.0409421,42.6842105 C96.9585167,46.3919038 96.440762,50.0352978 95.5058193,53.5616261 C90.155056,73.7431291 71.8136616,88.0526316 50.6315789,88.0526316 C25.3457445,88.0526316 4.7818289,67.8356934 4.22222564,42.6842105 Z" id="Oval-26" fill="#FFFFFF"></path>
+                <ellipse id="Oval-27" stroke="#FFFFFF" stroke-width="7" cx="51.1578947" cy="42.1578947" rx="41.5789474" ry="41.5789474"></ellipse>
+                <path d="M74.5324761,21.8994035 L77.5437379,25.9788656 L35.0370205,68.7836222 L30.744401,65.5235144 L74.5324761,21.8994035 Z" id="Rectangle-57" fill="#FFFFFF"></path>
+                <path d="M80.7046281,32.7786627 L81.5794948,38.9170507 L47.575188,72.809425 L41.4770401,71.4824444 L80.7046281,32.7786627 Z" id="Rectangle-57-Copy" fill="#FFFFFF"></path>
+                <path d="M81.0043451,49.2223175 L78.8847729,55.78798 C76.9590032,61.7533128 70.5400215,68.0760575 64.5525933,69.9086899 L58,71.914308 L81.0043451,49.2223175 Z" id="Rectangle-57-Copy-2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

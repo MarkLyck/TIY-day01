@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="350px" height="220px" viewBox="0 0 350 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-4">
+            <g id="Home" transform="translate(101.000000, 70.000000)">
+                <path d="M58.5,81 L54,81 L54,150 L60,150 L60,87 L90,87 L90,150 L96,150 L96,81 L91.5,81 L58.5,81 Z M15,64 L135,64 L135,150 L15,150 L15,64 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <path d="M33.1951606,21.2922744 L117.772935,22.1973394 L33.1951606,107.292274 L33.1951606,21.2922744 Z" id="Rectangle-36-Copy-5" fill="#FFFFFF" transform="translate(75.484048, 64.292274) rotate(-315.000000) translate(-75.484048, -64.292274) "></path>
+                <path d="M105,15 L123,15 L123,43.8348026 L105,25.2514505 L105,15 Z" id="Rectangle-36-Copy-4" fill="#FFFFFF"></path>
+                <rect id="Rectangle-41" fill="#FFFFFF" transform="translate(110.921054, 40.178332) rotate(-314.000000) translate(-110.921054, -40.178332) " x="57.4808218" y="37.6783322" width="106.880465" height="5" rx="5"></rect>
+                <rect id="Rectangle-41-Copy" fill="#FFFFFF" transform="translate(38.921054, 41.178332) scale(-1, 1) rotate(-314.000000) translate(-38.921054, -41.178332) " x="-14.5191782" y="38.6783322" width="106.880465" height="5" rx="5"></rect>
+                <g id="Door" transform="translate(54.000000, 81.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>
